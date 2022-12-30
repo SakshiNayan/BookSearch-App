@@ -1,0 +1,81 @@
+.backimg{
+    width: 100%;
+    position: absolute;
+    
+    left: 0;
+    height: auto;
+    z-index: -1;
+}
+.main{
+    top: 170px;
+    margin-top:45px;
+}
+
+.book{
+    text-align: center;
+    font-size: medium;
+    margin-top: -60px;
+    color: rgb(245, 241, 241);
+    background-color: rgb(12, 12, 12);
+    background-blend-mode: overlay;
+    mix-blend-mode: overlay;
+    width: 200px;
+}
+#book-container{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#image{
+    width: 200px;
+    height: 300px;
+}
+#box{
+    position: relative;
+    /* overflow: hidden; */
+    margin-top: 20px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+    opacity: 0;
+  color: #fff;
+  transition: 1s;
+ 
+}
+
+
+ .overlay:hover{
+    display: block;
+  z-index: 1;
+  opacity: 1;
+  
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  /* transition: 0.5s ease-out; */
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+    transform: scale(1.1);
+    z-index: 1;
+} 
+#in-cotainer{
+    padding-top: 20px;
+}
+.input-field{
+    width: 400px;
+    border-radius: 30px;
+    height: 40px;
+    padding-left: 20px;
+}
+.Click-search{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
